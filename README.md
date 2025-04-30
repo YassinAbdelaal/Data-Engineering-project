@@ -8,7 +8,7 @@ The Inventory Management System (IMS) is a robust software solution designed to 
 ## Planned Tools
 
 - **Programming Language**: C# within the .NET ecosystem, providing a robust and type-safe environment for building scalable and maintainable application logic.
-- **Framework**: .NET Core or .NET 8 (latest stable version as of 2025), enabling high performance, cross-platform compatibility, and support for modern web applications.
+- **Framework**: .NET enabling high performance, cross-platform compatibility, and support for modern web applications.
 - **Database**: SQL Server, used for efficient data storage, retrieval, and management, ensuring reliable and secure handling of inventory data with support for complex queries and transactions.
 - **ORM (Optional)**: Entity Framework Core, integrated with .NET C# to simplify database interactions, improve development speed, and ensure type-safe data operations.
 - **Frontend Web Framework**: ASP.NET Core MVC, used for the frontend to implement a Model-View-Controller architecture, enabling the development of dynamic, scalable, and maintainable web interfaces with clear separation of concerns.
