@@ -1,7 +1,7 @@
 # Data-Engineering-project
 # Inventory Management System (IMS)
 
-## Overview
+## Project Scope
 
 The Inventory Management System (IMS) is a robust software solution designed to transform inventory tracking and management for businesses across diverse sectors. Beyond its core functions of monitoring stock levels, managing product data, and generating reports, the IMS tackles complex challenges faced by inventory managers and administrators. Leveraging advanced technology and customizable features, it streamlines processes, minimizes manual tasks, and boosts operational efficiency. The system enhances the accuracy and reliability of inventory records, enabling businesses to maintain optimal stock levels, reduce waste, and meet customer demand effectively. With proactive tools like automated stock alerts and supplier management, the IMS prevents overstocking, understocking, and order delays. Its flexibility allows businesses to customize inventory policies and reporting to align with their unique needs, supporting data-driven decisions and supply chain optimization.
 
