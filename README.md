@@ -2,7 +2,18 @@
 
 ## Project Scope
 
-The Inventory Management System (IMS) is a robust software solution designed to transform inventory tracking and management for many businesses specifically automotive repair industry. Beyond its core functions of monitoring stock levels, managing product data, and generating reports, the IMS tackles complex challenges faced by inventory managers and administrators. Leveraging databases and a web interface, it streamlines processes, minimizes manual tasks, and boosts operational efficiency. The system enhances the accuracy and reliability of inventory records, enabling businesses to maintain optimal stock levels, reduce waste, and meet customer demand effectively. With proactive tools like automated stock alerts and supplier management, the IMS prevents overstocking, understocking, and order delays. Its flexibility allows businesses to customize inventory policies and reporting to align with their unique needs, supporting data-driven decisions and supply chain optimization.
+The **Inventory Management System (IMS)** is a robust web-based application tailored for businesses particularly in the **automotive repair industry**—to manage their inventory operations across multiple branches. Its core functionality includes monitoring stock levels, managing product data, recording sales, and generating reports.
+
+The IMS addresses the common challenges faced by inventory managers and administrators by leveraging a relational database and an intuitive web interface. It streamlines inventory-related workflows, reduces manual effort, and enhances operational efficiency.
+
+Key benefits include:
+- Improved accuracy and reliability of inventory records
+- Real-time stock tracking across multiple locations
+- Automated alerts to prevent overstocking and understocking
+- Enhanced customer service through optimized stock levels
+
+With flexible configuration options, the IMS supports customized inventory policies and reporting needs, enabling **data-driven decision-making** and **supply chain optimization**.
+
 
 ## Planned Tools
 
