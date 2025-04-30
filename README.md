@@ -2,7 +2,7 @@
 
 ## Project Scope
 
-The **Inventory Management System (IMS)** is a robust web-based application tailored for businesses particularly in the **automotive repair industry**—to manage their inventory operations across multiple branches. Its core functionality includes monitoring stock levels, managing product data, recording sales, and generating reports.
+The **Inventory Management System (IMS)** is a robust web-based application tailored for businesses particularly in the **automotive repair industry** to manage their inventory operations across multiple branches. Its core functionality includes monitoring stock levels, managing product data, recording sales, and generating reports.
 
 The IMS addresses the common challenges faced by inventory managers and administrators by leveraging a relational database and an intuitive web interface. It streamlines inventory-related workflows, reduces manual effort, and enhances operational efficiency.
 
