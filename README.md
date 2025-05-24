@@ -14,7 +14,6 @@ Key benefits include:
 
 With flexible configuration options, the IMS supports customized inventory policies and reporting needs, enabling **data-driven decision-making** and **supply chain optimization**.
 
-
 ## Planned Tools
 
 - **Programming Language**: C# within the .NET ecosystem, providing a robust and type-safe environment for building scalable and maintainable application logic.
@@ -114,3 +113,18 @@ Manages employee data:
 
 - **Foreign Keys**: Enforce relationships (e.g., `ProductID` in `OrderDetails` and `SaleDetails`) to maintain consistency and support cascading updates/deletes where applicable.
 - **Nullable Fields**: Fields like `WindshieldCode` and `AdhesiveAmount` in `Sales` are nullable to accommodate industry-specific data without enforcing unnecessary constraints.
+
+---
+
+## 🚀 Build & Run Instructions
+
+### 🖥️ Option 1: Using Visual Studio (Recommended)
+
+1. **Install Visual Studio 2022 or later**
+   - During installation, select:
+     - ".NET desktop development"
+     - ".NET and web development"
+
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Abdelrahman2610/Inventory-Management-System.git
