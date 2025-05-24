@@ -42,6 +42,9 @@ Stores product details:
 * `Name`
 * `Type`
 * `Color`
+* 'Price'
+* 'Code'
+* 'CategoryID'
 
 ### Inventory Table
 
@@ -51,7 +54,9 @@ Tracks stock levels:
 * `ProductID` \[FK]
 * `LocationID` \[FK]
 * `Quantity`
-
+* `Shelf`
+* `Location`
+* 'Product'
 ### Locations Table
 
 Manages warehouse/store locations:
@@ -78,6 +83,7 @@ Details products in orders:
 * `OrderID` \[FK]
 * `ProductID` \[FK]
 * `Quantity`
+* 'Prodcut'
 
 ### Sales Table
 
@@ -98,16 +104,15 @@ Specifies products sold:
 * `SaleID` \[FK]
 * `ProductID` \[FK]
 * `Quantity`
-* `Price`
 
 ### Clients Table
 
 Stores client information:
 
 * `ClientID` \[PK]
-* `FullName`
-* `ContactNumber`
-* `Email`
+* `Name`
+* `Phone`
+* `car_number`
 * `Address`
 
 ### Employees Table
@@ -115,25 +120,34 @@ Stores client information:
 Manages employee data:
 
 * `EmployeeID` \[PK]
-* `FullName`
+* `Name`
 * `Username`
 * `PasswordHash`
 * `Role`
-* `AssignedLocationID` \[FK]
+* * `Phone`
+* `LocationID` \[FK]
+* * `isactive'
+### StockRequest Table
 
-## Table Structure
+Handles stock transfer requests between locations:
 
-* **Products**: Includes `Type` and `Color` to support diverse inventory categorization, enabling flexible filtering and reporting.
-* **Inventory**: Links `ProductID` and `LocationID` to track stock per product and location, supporting multi-warehouse management.
-* **Locations**: Stores `LocationName` and `Address` for clear identification of stock locations, critical for order fulfillment.
-* **Orders and OrderDetails**: Separates order metadata (Orders) from product specifics (OrderDetails) to handle multiple products per order efficiently, supporting stock transfers between locations.
-* **Sales and SaleDetails**: Similar to Orders, separates sale metadata (including niche fields like `WindshieldCode` and `AdhesiveAmount` for specific industries) from product details, enabling detailed sales tracking and reporting.
-* **Clients**: Centralizes client data for sales and customer relationship management, with fields like `Email` and `ContactNumber` for communication.
-* **Employees**: Includes `Role` and `AssignedLocationID` to support role-based access control and location-specific responsibilities, with `PasswordHash` for secure authentication.
-* **Foreign Keys**: Enforce relationships (e.g., `ProductID` in `OrderDetails` and `SaleDetails`) to maintain consistency and support cascading updates/deletes where applicable.
-* **Nullable Fields**: Fields like `WindshieldCode` and `AdhesiveAmount` in `Sales` are nullable to accommodate industry-specific data without enforcing unnecessary constraints.
+- `RequestId` [PK]
+- `FromLocationId` [FK] 
+- `ToLocationId` [FK]  
+- `ProductCode` [FK]  `
+- `Quantity`
+- `RequestDate'
+- `Status`
 
----
+### GlassFixationCategory Table
+
+Stores categories for glass fixation with associated costs:
+
+- `id` [PK]
+- `CatName`
+- `fixation_cost`
+- `Products`
+
 
 ## 🚀 Build & Run Instructions
 
